@@ -20,6 +20,7 @@ script:
 deploy:
   provider: heroku
   api-key: 
-    secure: $HEROKU_API_KEY
+    #secure: $HEROKU_API_KEY
+    secure: $(heroku auth:token)
   app: wilson-pipeline
   
