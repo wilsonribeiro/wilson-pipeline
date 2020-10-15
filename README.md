@@ -1,7 +1,7 @@
 # Wilson-Pipeline
 
 <!-- Altere a Flag abaixo com sua URL do Travis -->
-[![Build Status](https://travis-ci.org/gabyldias/simple-unittest.svg?branch=master)](https://travis-ci.org/gabyldias/simple-unittest)
+[![Build Status](https://travis-ci.org/.svg?branch=master)](https://travis-ci.org/simple-unittest)
 
 ## Aplicação criada para exemplificar o Ciclo de uma PipeLine DevOps
 
