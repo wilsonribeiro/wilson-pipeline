@@ -17,6 +17,8 @@ script:
 
 deploy:
   provider: heroku
-  api-key: 
-    secure: $HEROKU_API_KEY
   app: wilson-pipeline
+  on:    
+    branch: master
+  api-key: 
+    secure: KSC7OfyRtiN7iNix/UY/amEMHa3N5hvlI1BCZQG2PaAOmiAZolu8QSj24qT2ePdcECFhDawXwVHt/oyaM3mqJrAbMSx+bVcyAh+rOYHSfYJ6XaN68GohilunQ0yuqGRFQq24fjuVcpduONZjsONrI4ZiJ48xgHCyUkE8yuBz6dczXUEfetke3muZK85gldxi0NwFKgkrqRUr4PXwLfwJOhu/P/GvEQQpnYGB7aX0TBePkQuPHduWzujvsS0V1G6w5Xmh3EteCSg9jSxDIH5mS29mqFgGvgF4iKTkNu3mJBrtklu81gpxEeI+N6WeAp3/2i9RH8tUf6nRlVf3Gwqso8a8D1EXfmRP9o2ydhokNqDKZwMg16VLzFShh1Q4n8euM4hFstO44uVSB33JKj8wQeBedFPCHYLCggAv4JJTHn0/zyakSUAaAEWwN/u2IqIZ6lHuU3NrYvKmwxyF4glW37OW1NasbyTkNB/+ZPToZIyQ6dBv7ry54/y5DkIMflZ/PL/6VRWiYB+0zJb1Hxc3h/0hyhMOlVODlflnjIh0Zu63i1sFtBlQl1m0jzAp9OrkRWm57jJJpJPZMn1kNFK+F9TcRK4LMfM8kBwS7qDTD+XkRTpNZ/Yr24Yr3/tvVco64F3ufTLIqHFVF6pkYflJMVuWs2xTqIOfPl/JLOetkTs=
