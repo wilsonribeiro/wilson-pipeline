@@ -5,7 +5,7 @@ install:
 - pip install flask
 script:
 - python test.py
-deploy: &heroku
+deploy: heroku
   provider: heroku
   api_key: $HEROKU_API_KEY
     secure: 
