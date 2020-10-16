@@ -1,6 +1,5 @@
 # Wilson-Pipeline
-
-<!-- Altere a Flag abaixo com sua URL do Travis -->
+<!-- Status do TravisCI -->
 [![Build Status](https://www.travis-ci.org/wilsonribeiro/wilson-pipeline.svg?branch=master)](https://www.travis-ci.org/wilsonribeiro/wilson-pipeline)
 
 
