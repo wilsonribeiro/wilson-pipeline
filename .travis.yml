@@ -1,6 +1,6 @@
 language: python
 python:
-- 3.8.0
+- 3.9.0
 install:
 - pip install flask
 script:
@@ -8,7 +8,5 @@ script:
 deploy:
   provider: heroku
   app: wilson-pipeline
-  on:
-    branch: master
   api_key:
-    secure: dthBA+ijz/AA6+y9CUqEGb3rwhAk17n67C3IdoiB9vLfr24OvO2Qi+x8Wx6TQZZ5yK1QnzL4+meBszCggJnNn6WZ8aUIOecRw5s96syUMg8utYN38HXaagoPajgbPWh1MiMxJNbZMGcUSe/dJ4JTGtiiW3q2ya8Gd2uL1np5+3q/51CgdM2z0FJn89b1AhA8A+XmaXlr3gLXJlqRvp2aYjSBQCJ7Ww9ELNC01ISwAnzbyQYPJ9Ogc+emDNHrREuUkE1fye3zrQYW6VkqEj2PeOEPQdtzQDmiX2ChEPI9ckTII7O1qmHIEsX/oPdhhEJajzqi4T/QywBSmwOMnv8nPQ2sElqHnQ9ao0gpU9m3/YWA8MhtxrLCS0lsMDlJtBtIXObPC07bDGfU2ISsmIsq0oI0aojUDv3TXculhhBgf6NOHqSmDPG4dO1OSf6UuMhq/wQOyQhfcxYelBb4Ns9P2La1pbEWP7Qki68NUI27qdDf8qk1AEygZwIMQfMbxGISn8lBDFlDl5UFFV/oRko7U7jt/P6ZdERBzl5ywf0v7ydVshmw3IB5IIfGsaXxRXUhFYs8QOoV5N5kNhOJXxhoBEEzMwgz4DADy+En4yMqkpQGBcAUq0GqN02NGkgNroEsvJBJzIYSqPc9fP0r23mmTCY+LzC8Ku3G9PCfu+b3ydc=
+    secure: $HEROKU_API_KEY
