@@ -1,7 +1,6 @@
 language: python
 python:
 - 3.8.2
-#sudo: required
 install:
 - pip install flask
 script:
