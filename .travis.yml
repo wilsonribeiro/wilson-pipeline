@@ -7,7 +7,9 @@ script:
 - python test.py  
 deploy:
   provider: heroku
-  api_key: 
-    secure: $SECURE_KEY
   app: wilson-pipeline
-  
+  on:
+    branch: master
+  api_key: 
+    secure: fskHq+CVyPdC+4io6t3ItlS5Angp1SJB+x+4MKl+ZmHHLmwxQOresgz9Cs4wtkI89rUeg0fdHf6HkPjNsKXAVbKXww75Ujbj2iDtlf2zeP7bTHgacTU2Dv9l36Ew7yF0iNVcvjiP0DTtgDeDl+aQz2nmkK+OwIWvLCon5u2AAoPWNcd94DblZ97fHumdHmQ39khI2wqZxkwlGSL2XeFozrff00aPeaCk8NlcH+pA63V4rdrqRSSRiOgeoXitXJj7z6JJ8ZwEYXCFVLrMSYZ683b7B1y2GFQk//HzRW9LAL6cGF6QFjokZ0gtZDpHO2ULClwSEfgFy7Sv43IQB0dAwXlUa6XBdyuvJKON5MhgMAdQ/Ug2/1SEKC8qLgDGBBroeDSd8VsZcGTUi6q8WEa+d5LAIX5d2a3CabH4lWCmPd1pPm5ukONCoYBC2aNjPmA+KmTKNbwP0nVZhIn6faL+j7dyS/VSfI8bAWJumA9sdtYIvZ/HbCdRDhym/4unySpF4wSbXHtHPd8RbPUhJhI5zSRwvOmvyoDwhPOR4NKFGbPRiVX9dSbTK76W6V+LuZTHuC5cTG1CADf+n5581drI6nLLwCp0YnMfTYjhg9LBQ7mZsEP0+1zcezUlqVGnNQifejJMejEEwBfsrBG3ouwRUP+hF0uspiajuaCFQADF6RM=
+    
