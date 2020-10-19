@@ -9,8 +9,7 @@ script:
 deploy:
   provider: heroku
   api_key:
-    secure: 
-OBjPiV1zkntRYY8mSM/VfihufXDH+larNVoi7uyfP/n4FvtriIgdS5Z1sAMR74lJPS16aG1AM81aSo2zOcV4qVwFnu4Is46mMDW1pfE250AjNuPPry+MqMOtBFmvrnyn4/e6M4L4Qe9yseGZMPzOBnXWbKFe0kVDziPyPzVBQwQB5O1aDSkaPVgiTCHOGB7ig7XZmtV8oeiVAyLhVouQad2SZ9yYe66MbZmSJcrdou6jpvXnXQ/QA3h3dBwdSfklE2HMwg82B9SPWY86sa7p+t/DewBYscnxvYyvKsRJ+4BGLv5Db0ao6Mdggj9d/cLkPCAa0mkzDWk0QieRklAPeSayPPnRRNz/U88kGRBkhrbpxkhN9l6Uxj1Fas5qwZ1Xj2efdOgANqzx5XL4G4Z83qrVpIEgNtAB3Mg+VCErk1FEwx/D5q9xhxrYRIzs6TbUDtgaDm3qyjNv+5S1n8Ym1UTwOFUWdoCOIS+uO39kMF2yxViX07Ew8z//njo7AzmDI4i5bq1xxwUXZDiNXD8hPVjOnbKSq0NbyP715P5cjd//aNX2ofRbsDQjh496NveO5lTI8T90+F0Gu0HM6HKCfki75gbwbYfEZ8Gnl7ua/F+Ez7kN9ZfyPS3HopPjdSYO4rFzUGzpTc3u1f+Sj3zpP3Mwh5Bpv2qMAI7giaUI19U=
+    secure: $HEROKU_API_KEY
   app: wilson-pipeline
   on:
     repo: wilsonribeiro/wilson-pipeline
