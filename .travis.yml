@@ -5,11 +5,10 @@ install:
 - pip install flask
 script:
 - python test.py  
-deploy:
-  provider: heroku
-  app: wilson-pipeline
-  on:
-    branch: master
-  api_key: 
-    secure: $HEROKU_API_KEY
-    
+#deploy:
+#  provider: heroku
+#  app: wilson-pipeline
+#  on:
+#    branch: master
+#  api_key: 
+#    secure: $HEROKU_API_KEY
