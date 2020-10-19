@@ -4,12 +4,13 @@ python:
 install:
 - pip install flask
 script:
-- python test.py  
-
+- python test.py
 deploy:
   provider: heroku
   api_key:
-    secure: $HEROKU_API_KEY
-  app: wilson-pipeline
+    secure: "$HEROKU_API_KEY"
   on:
     repo: wilsonribeiro/wilson-pipeline
+env:
+  global:
+    secure: wdq6uBEBoanmgppLi/GjPCnNF278X4KI7dS+dFEAbbdKfgqBn+BolTNJdzC12KUsRF2iQvpq78UvM0gBGjJIoU3xGNlWTYonH9j0zJP/H9rS6eaPaWOnYJS8IAkijN5RN8l1LXyXHA5mqXDszdtTJHES01lA0LwS8NxjuaQQmXO5A3yKmW+9mBPzfI2rnxDzWK068+g3tbhMgFCRAGo0ppFNxcqPtSZuYM9AgC7hAhHXT1lZdOk+deeCas63SPl0NvtfhS5YRnqb/4BvgQTb1ZcETxIjf9sLGo0Xou3wY7EHm6xxfcdQFH0U87Ag6Fee5Oa5qyKglEAipeoiw07ef76dom4NupWsUNoY/DXilLeafC4fwQdjRcDfBioIqEfTIeXSYolqyefNnqI8Gah5tJlRgTdk8EPpqwqKXrjf/l9zshEVgJb0edpiPESIeE+i4+DjZF8LOuiHoyh0aCIRQkL0H2FdabVrvvt/YKU5I1z+U1etWsoOnlvN10oQfl7YQKzcAM2jzDgX82lgyNf1WV/ZnUy6i8P0eiPsKE2TKKYs1UVtf1Bzdkt0oyYV/sBo35N69FgicsrzDbhRArPOd9y+BRVyXBk3G7MdniY9i7xupME5IM04z4h9iO5WsYTFTO2VMTSYzvseMZZIRK0+mfMpooDWbnt8HDYlDjwJaSs=
