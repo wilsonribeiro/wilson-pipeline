@@ -3,8 +3,7 @@
 
 
 <!-- Lincense -->
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) ![Release Charts](https://github.com/prometheus-community/helm-charts/workflows/Release%20Charts/badge.svg?branch=main)
-
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 <!-- Status do TravisCI -->
 [![Build Status](https://www.travis-ci.org/wilsonribeiro/wilson-pipeline.svg?branch=master)](https://www.travis-ci.org/wilsonribeiro/wilson-pipeline)
