@@ -54,20 +54,7 @@ a {
   text-align: center; }
   .logo img {
     max-width: 600px; }
-
-.whoiam {
-  max-width: auto; 
-  display: inline-flex;
-}
-  .whoiam img {
-    float: none;
-    width: 200px;
-  }
-  .whoiam p{
-    padding-left: 50px;
-    text-align: justify;
-  }
-
+    
 .title {
   text-align: left;
   font-weight: 300;
