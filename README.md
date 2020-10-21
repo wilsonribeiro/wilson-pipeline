@@ -9,7 +9,7 @@
 [![Build Status](https://www.travis-ci.org/wilsonribeiro/wilson-pipeline.svg?branch=master)](https://www.travis-ci.org/wilsonribeiro/wilson-pipeline)
 
 
-## Aplicação criada para exemplificar o Ciclo de uma PipeLine DevOps
+## Aplicação criada para exemplificar o ciclo de uma PipeLine DevOps.
 
 
 Aplicação simples em Python e HTML. Veja a aplicação aqui: https://wilson-pipeline.herokuapp.com/
