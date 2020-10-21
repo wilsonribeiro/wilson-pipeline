@@ -30,6 +30,24 @@ a {
   font-weight: 700;
   color: #fff; }
 
+.footer {
+  text-align: center;
+  background: #fff;
+  box-shadow: 0 -2px 3px #f1f1f1;
+  height: 150px;
+  line-height: 30px;
+  font-size: 20px;
+  padding-top: 5px;
+}
+
+.header-footer{
+  color: steelblue;
+}
+
+.itens-footer{
+  padding-bottom: 25px;
+}
+  
 .logo {
   text-align: center; }
   .logo img {
