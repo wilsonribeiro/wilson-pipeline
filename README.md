@@ -15,7 +15,7 @@
 Aplicação simples em Python e HTML. Veja a aplicação aqui: https://wilson-pipeline.herokuapp.com/
 
 
-Para maiores informações acesse o meu perfil no [LinkedIN](https://www.linkedin.com/in/wilsonribeiro2/)
+Para maiores informações acesse o meu perfil no [LinkedIn](https://www.linkedin.com/in/wilsonribeiro2/)
 
 
 ## License
