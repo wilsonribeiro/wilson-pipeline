@@ -16,7 +16,9 @@ a {
 
 .container {
   max-width: 1024px;
-  margin: auto; }
+  margin: auto; 
+  margin-bottom: 50px;
+}
 
 .alert {
   position: fixed;
@@ -25,7 +27,7 @@ a {
   width: 100%;
   padding: 8px 16px;
   border-radius: 0 0 4px 4px;
-  background-color: #78d25a;
+  background-color: #FF5733;
   text-align: center;
   font-weight: 700;
   color: #fff; }
@@ -47,16 +49,79 @@ a {
 .itens-footer{
   padding-bottom: 25px;
 }
-  
+
 .logo {
   text-align: center; }
   .logo img {
-    margin-top: 6%;
     max-width: 600px; }
 
-.keep-studying {
-  text-align: center;
-  font-weight: 300;
-  font-size: 30px; }
+.whoiam {
+  max-width: auto; 
+  display: inline-flex;
+}
+  .whoiam img {
+    float: none;
+    width: 200px;
+  }
+  .whoiam p{
+    padding-left: 50px;
+    text-align: justify;
+  }
 
+.title {
+  text-align: left;
+  font-weight: 300;
+  font-size: 30px; 
+  margin-bottom: -20px;
+}
+
+.path h1 {
+  font-weight: 600;
+  font-size: 28px;
+  margin-bottom: 8px; }
+
+.docker-path h1 {
+  border-bottom: 4px solid #00aab0;
+  color: #00aab0; }
+
+.other-path h1 {
+  border-bottom: 4px solid #808080;
+  color: #808080; }
+
+.medium-path h1 {
+  border-bottom: 4px solid #e91ddf;
+  color: #e91ddf; }
+
+.project {
+  vertical-align: top;
+  display: inline-block;
+  width: 48%;
+  padding: 16px;
+  margin-bottom: 12px;
+  border-radius: 2px;
+  background-color: #808080;
+  font-size: 14px;
+  color: #fff;
+  transition: all 0.3s; }
+  .project:nth-child(odd) {
+    margin-left: 1%; }
+  .project:nth-child(even) {
+    margin-right: 1%; }
+  .project:hover {
+    opacity: 0.8; }
+  .project h2 {
+    margin: 0;
+    font-size: 16px; }
+
+.docker {
+  background-color: #00aab0;
+  color: #fff; }
+
+.medium {
+  background-color: #e91ddf;
+  color: #fff; }
+
+a:link{
+  text-decoration:none;
+}
 /*# sourceMappingURL=main.css.map */
