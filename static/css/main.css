@@ -1,18 +1,23 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700");
 html {
-  box-sizing: border-box; }
+  box-sizing: border-box; 
+}
   html * {
     box-sizing: inherit;
-    font-family: Montserrat; }
+    font-family: Montserrat; 
+  }
 
 body {
-  margin: 0; }
+  margin: 0; 
+}
 
 img {
-  outline: none; }
+  outline: none; 
+}
 
 a {
-  color: inherit; }
+  color: inherit; 
+}
 
 .container {
   max-width: 1024px;
@@ -52,12 +57,11 @@ a {
 
 .logo {
   text-align: center;
-  font-weight: 300;
-  font-size: 30px; 
  }
  
 .logo img {
-  max-width: 600px; }
+  max-width: 600px; 
+}
     
 .title {
   text-align: left;
