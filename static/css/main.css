@@ -42,11 +42,11 @@ a {
   padding-top: 5px;
 }
 
-.header-footer {
+.header-footer{
   color: steelblue;
 }
 
-.itens-footer {
+.itens-footer{
   padding-bottom: 25px;
 }
 
@@ -58,7 +58,7 @@ a {
 .title {
   text-align: left;
   font-weight: 300;
-  font-size: 60px; 
+  font-size: 30px; 
   margin-bottom: -20px;
 }
 
