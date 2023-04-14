@@ -11,9 +11,9 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="Welcome to my app!" />
+        <Header title="Welcome to my Wilson-Pipeline App!" />
         <p className="description">
-          Get started by editing <code>pages/index.js</code>
+          Application created to exemplify the cycle of a DevOps PipeLine.
         </p>
       </main>
 
