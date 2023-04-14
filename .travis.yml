@@ -11,7 +11,7 @@ script:
 deploy:
   provider: netlify
   api_key:
-    secure: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC3+zf4An+FopGSdlv4WRXPnY5IERFHXHmwPWCAU9gfXZLE3RLSX7DNoTJg/WDAKxwDQ4xovNtLiDvq7e4gfwOTidlgRI7b31PSVIic2HPQcas33Pzt2V8S8C2pw3SNhstIE2eedDShTZfJz4JaWeBzu25kq/7muGuQTgdjbUs2koYAYRkMXNfrK3cF3mVHBPaBlBp6AIQaS9M074kDg5Xv+BoxxZR8VaQraI59TpaYUF+sudjZ18UYEOTJl+f8/Z6qYEmZz3w7eUUDWv8mA1PuVPuGTxPUbXbirU8WDUIKPfrFL7x7lHWQEyKtSMbIKxWObh0fqqcwLzxly6NAkJ498452dcRPwRLp7QfHNAlABRP9ArwvdRc0nuALzHyS8tm3/+LzI9z12I4xZTJGauZkYYufIVfKrU/pFsG6V7T6amsGUjVXBAK89NCDBWcNL2S0mxWjPefBue5Jka9axU84PTE5cQgNkv43V+3vkR63Njt3fkUFCjcYC6p2nLL4Af+IsDkKcCj3lbLaOgt7+8GyMfv+tFY4Yn+FH6ndFZ5C9q2HQ/cO+6/sibIEbN0xiyZkvlu2UKddemy24SDDp0+NO/+QiqlbbjYezpQgUtm/LBEab+ntVG3m9lRtrkJFM8l+kv8Whig4oC7RW8Ti674rYlsGYfaHouWqbZ3Ng385lw==
+    secure: r3FhQrFu2nqCpvCtIQaaoQ
   app: wilson-pipeline
   on:
     repo: wilsonribeiro/wilson-pipeline
