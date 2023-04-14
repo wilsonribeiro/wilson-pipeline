@@ -13,14 +13,16 @@ export default function Home() {
       <main>
         <Header title="Welcome to my Wilson-Pipeline App!" />
         <p className="description">
-          Application created to exemplify the cycle of a DevOps PipeLine
+          Application created to exemplify the cycle of a DevOps PipeLine </p>
 
-          For more information, visit my profile on [LinkedIn](https://www.linkedin.com/in/wilsonribeiro2/)
+        <p className="description">
+         For more information, visit my profile on LinkedIn: https://www.linkedin.com/in/wilsonribeiro2/ </p>
 
-          Thanks in advance!!
+        <p className="description">
+         Thanks in advance!! </p>
 
-          Wilson Ribeiro
-        </p>
+        <p className="description">
+          Wilson Ribeiro </p>
       </main>
 
       <Footer />
