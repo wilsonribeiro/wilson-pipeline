@@ -5,8 +5,6 @@
 <!-- Lincense -->
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-<!-- Status do TravisCI -->
-[![Build Status](https://app.travis-ci.com/wilsonribeiro/wilson-pipeline.svg?branch=master)](https://app.travis-ci.com/wilsonribeiro/wilson-pipeline)
 
 <!-- Status do Netlify -->
 [![Netlify Status](https://api.netlify.com/api/v1/badges/bb562824-89c9-458d-b22c-a16fa8afc144/deploy-status)](https://app.netlify.com/sites/wilson-pipeline/deploys)
