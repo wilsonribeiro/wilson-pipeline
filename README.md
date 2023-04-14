@@ -7,7 +7,7 @@
 
 
 <!-- Status do Netlify -->
-[![Netlify Status](https://api.netlify.com/api/v1/badges/c7aac313-ffbe-47fb-9756-7bfe2fb2c7ae/deploy-status)](https://app.netlify.com/sites/wilson-pipeline/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/bccbf759-9114-47e1-9053-eef31297a030/deploy-status)](https://app.netlify.com/sites/wilson-pipeline/deploys)
 
 
 ## Aplicação criada para exemplificar o ciclo de uma PipeLine DevOps.
