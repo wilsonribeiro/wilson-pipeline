@@ -13,7 +13,7 @@
 ## Aplicação criada para exemplificar o ciclo de uma PipeLine DevOps.
 
 
-Aplicação simples em Python e HTML. Veja a aplicação aqui: https://wilson-pipeline.netlify.app/
+Aplicação simples em NodeJS. Veja a aplicação aqui: https://wilson-pipeline.netlify.app/
 
 
 Para maiores informações acesse o meu perfil no [LinkedIn](https://www.linkedin.com/in/wilsonribeiro2/)
